@@ -1,0 +1,2 @@
+E:\Net\EFProfile工具\EFlogger.EntityFramework4\obj\Debug\EFlogger.EntityFramework4.csprojResolveAssemblyReference.cache
+E:\Net\EFProfile工具\EFlogger.EntityFramework4\obj\Debug\EFlogger.EntityFramework4.csproj.CoreCompileInputs.cache

@@ -1,0 +1,17 @@
+E:\Net\EFProfile工具\EFloggerApp\bin\Release\EFlogger.exe.config
+E:\Net\EFProfile工具\EFloggerApp\bin\Release\EFlogger.exe
+E:\Net\EFProfile工具\EFloggerApp\bin\Release\EFlogger.pdb
+E:\Net\EFProfile工具\EFloggerApp\bin\Release\EFlogger.Network.dll
+E:\Net\EFProfile工具\EFloggerApp\bin\Release\NLog.dll
+E:\Net\EFProfile工具\EFloggerApp\bin\Release\SourceGrid.dll
+E:\Net\EFProfile工具\EFloggerApp\bin\Release\EFlogger.Network.pdb
+E:\Net\EFProfile工具\EFloggerApp\bin\Release\NLog.xml
+E:\Net\EFProfile工具\EFloggerApp\bin\Release\SourceGrid.xml
+E:\Net\EFProfile工具\EFloggerApp\obj\Release\EFloggerApp.csprojResolveAssemblyReference.cache
+E:\Net\EFProfile工具\EFloggerApp\obj\Release\EFloggerApp.Views.ErrorHandlerForm.resources
+E:\Net\EFProfile工具\EFloggerApp\obj\Release\EFloggerApp.Views.MainForm.resources
+E:\Net\EFProfile工具\EFloggerApp\obj\Release\EFloggerApp.Properties.Resources.resources
+E:\Net\EFProfile工具\EFloggerApp\obj\Release\EFloggerApp.csproj.GenerateResource.Cache
+E:\Net\EFProfile工具\EFloggerApp\obj\Release\EFloggerApp.csproj.CoreCompileInputs.cache
+E:\Net\EFProfile工具\EFloggerApp\obj\Release\EFlogger.exe
+E:\Net\EFProfile工具\EFloggerApp\obj\Release\EFlogger.pdb

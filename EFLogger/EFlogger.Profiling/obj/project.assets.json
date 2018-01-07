@@ -1,0 +1,431 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "Humanizer.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Humanizer.dll": {}
+        }
+      },
+      "ICSharpCode.Decompiler/3.0.0.3447": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "2.2.0",
+          "Mono.Cecil": "0.10.0-beta7",
+          "System.Collections.Immutable": "1.3.1",
+          "System.ValueTuple": "4.3.0"
+        },
+        "compile": {
+          "lib/net46/ICSharpCode.Decompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net46/ICSharpCode.Decompiler.dll": {}
+        }
+      },
+      "Mono.Cecil/0.10.0-beta7": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ValueTuple/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        }
+      },
+      "EFlogger.Network/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/EFlogger.Network.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFlogger.Network.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win": {
+      "Humanizer.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Humanizer.dll": {}
+        }
+      },
+      "ICSharpCode.Decompiler/3.0.0.3447": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "2.2.0",
+          "Mono.Cecil": "0.10.0-beta7",
+          "System.Collections.Immutable": "1.3.1",
+          "System.ValueTuple": "4.3.0"
+        },
+        "compile": {
+          "lib/net46/ICSharpCode.Decompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net46/ICSharpCode.Decompiler.dll": {}
+        }
+      },
+      "Mono.Cecil/0.10.0-beta7": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ValueTuple/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        }
+      },
+      "EFlogger.Network/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/EFlogger.Network.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFlogger.Network.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x64": {
+      "Humanizer.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Humanizer.dll": {}
+        }
+      },
+      "ICSharpCode.Decompiler/3.0.0.3447": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "2.2.0",
+          "Mono.Cecil": "0.10.0-beta7",
+          "System.Collections.Immutable": "1.3.1",
+          "System.ValueTuple": "4.3.0"
+        },
+        "compile": {
+          "lib/net46/ICSharpCode.Decompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net46/ICSharpCode.Decompiler.dll": {}
+        }
+      },
+      "Mono.Cecil/0.10.0-beta7": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ValueTuple/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        }
+      },
+      "EFlogger.Network/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/EFlogger.Network.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFlogger.Network.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x86": {
+      "Humanizer.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Humanizer.dll": {}
+        }
+      },
+      "ICSharpCode.Decompiler/3.0.0.3447": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "2.2.0",
+          "Mono.Cecil": "0.10.0-beta7",
+          "System.Collections.Immutable": "1.3.1",
+          "System.ValueTuple": "4.3.0"
+        },
+        "compile": {
+          "lib/net46/ICSharpCode.Decompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net46/ICSharpCode.Decompiler.dll": {}
+        }
+      },
+      "Mono.Cecil/0.10.0-beta7": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ValueTuple/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        }
+      },
+      "EFlogger.Network/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/EFlogger.Network.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFlogger.Network.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Humanizer.Core/2.2.0": {
+      "sha512": "rsYXB7+iUPP8AHgQ8JP2UZI2xK2KhjcdGr9E6zX3CsZaTLCaw8M35vaAJRo1rfxeaZEVMuXeaquLVCkZ7JcZ5Q==",
+      "type": "package",
+      "path": "humanizer.core/2.2.0",
+      "files": [
+        "humanizer.core.2.2.0.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/netstandard1.0/Humanizer.dll"
+      ]
+    },
+    "ICSharpCode.Decompiler/3.0.0.3447": {
+      "sha512": "zMP8k8Hw9IUm40L7SLbQm/ISnqVUugYlMqik0gWESxsZt+wlR4/bD2ubT9h9l9lUXAfnTrJf8SJjj0TXRKK+kA==",
+      "type": "package",
+      "path": "icsharpcode.decompiler/3.0.0.3447",
+      "files": [
+        "icsharpcode.decompiler.3.0.0.3447.nupkg.sha512",
+        "icsharpcode.decompiler.nuspec",
+        "lib/net46/ICSharpCode.Decompiler.dll",
+        "lib/net46/ICSharpCode.Decompiler.pdb",
+        "lib/netstandard2.0/ICSharpCode.Decompiler.dll",
+        "lib/netstandard2.0/ICSharpCode.Decompiler.pdb"
+      ]
+    },
+    "Mono.Cecil/0.10.0-beta7": {
+      "sha512": "Fs0LLk5DO9e0PgcsJdQRSXYr45rEfV6UtpwU4FB9kz27nxl3wwsh/ge/bhhJBrfqRvcU+BdBViJC4HKZpXe/Cg==",
+      "type": "package",
+      "path": "mono.cecil/0.10.0-beta7",
+      "files": [
+        "lib/net35/Mono.Cecil.Mdb.dll",
+        "lib/net35/Mono.Cecil.Pdb.dll",
+        "lib/net35/Mono.Cecil.Rocks.dll",
+        "lib/net35/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/netstandard1.3/Mono.Cecil.Mdb.dll",
+        "lib/netstandard1.3/Mono.Cecil.Pdb.dll",
+        "lib/netstandard1.3/Mono.Cecil.Rocks.dll",
+        "lib/netstandard1.3/Mono.Cecil.dll",
+        "mono.cecil.0.10.0-beta7.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/1.3.1": {
+      "sha512": "kwTi5xyDwySa9dy9GttjQMk0zYAyioNcijU42k2uOFfXsqsYpAIgckVCBwGmWGlNlfgqLDkz+jqnat1Wa9EmDA==",
+      "type": "package",
+      "path": "system.collections.immutable/1.3.1",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.3.1.nupkg.sha512",
+        "system.collections.immutable.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.3.0": {
+      "sha512": "cNLEvBX3d6MMQRZe3SMFNukVbitDAEpVZO17qa0/2FHxZ7Y7PpFRpr6m2615XYM/tYYYf0B+WyHNujqIw8Luwg==",
+      "type": "package",
+      "path": "system.valuetuple/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/.xml",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/.xml",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "system.valuetuple.4.3.0.nupkg.sha512",
+        "system.valuetuple.nuspec"
+      ]
+    },
+    "EFlogger.Network/1.0.0": {
+      "type": "project",
+      "path": "../EFlogger.Network/EFlogger.Network.csproj",
+      "msbuildProject": "../EFlogger.Network/EFlogger.Network.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "EFlogger.Network >= 1.0.0",
+      "ICSharpCode.Decompiler >= 3.0.0.3447",
+      "Mono.Cecil >= 0.10.0-beta7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Net\\EFProfile工具\\EFlogger.Profiling\\EFlogger.Profiling.csproj",
+      "projectName": "EFlogger.Profiling",
+      "projectPath": "E:\\Net\\EFProfile工具\\EFlogger.Profiling\\EFlogger.Profiling.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "E:\\Net\\EFProfile工具\\EFlogger.Profiling\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "E:\\Net\\EFProfile工具\\.nuget\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {
+            "E:\\Net\\EFProfile工具\\EFlogger.Network\\EFlogger.Network.csproj": {
+              "projectPath": "E:\\Net\\EFProfile工具\\EFlogger.Network\\EFlogger.Network.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "ICSharpCode.Decompiler": {
+            "target": "Package",
+            "version": "[3.0.0.3447, )"
+          },
+          "Mono.Cecil": {
+            "target": "Package",
+            "version": "[0.10.0-beta7, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
